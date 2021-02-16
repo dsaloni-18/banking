@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spark foundation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+<style>
+html{
+  scroll-behavior: smooth;
+}
+body {
+	background-image: url("back0.jpg");
+	overflow:hidden;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-image-opacity:0.75;
+    background-attachment: fixed;
+}
+nav ul li 
+{
+	float:right;
+	list-style-type: none;
+	display: inline-block;
+	font-size:25px;
+	background-color:transparent;
+	transition:0.8 s all;
+	}
+a {
+	margin:0;
+	display:block;
+	color:black;
+	text-align:center;
+	padding:5px 15px;
+	font-family:Brush Script MT;
+	font-size:30px; 
+	text-decoration:none;
+  }
+nav ul li a:hover:not(.active)	{
+	color:white;
+	font-size:35px;
+	background-color: purple;
+	}
+.b {
+	padding :5px 25px;
+	float :left;
+	color:navy;
+	font-size:40px;
+	font-family:Brush Script MT;
+}
+h4
+{
+	position:absolute;
+	top:60px;left:200px;
+    text-align:center;
+	font-family: emoji;
+	font-size: 60px;
+	letter-spacing: 1px;
+	font-variant: small-caps;
+	font-style: oblique;
+	color:crimson;
+}
+div.tag 
+{
+	position:absolute;
+	top:300px;left:550px;
+	font-size:20px;
+	color:green;}
+button
+{
+	position:absolute;top:450px;
+	width:170px;
+	height:40px;
+	font-size:25px;
+	font-weight:bold;
+	border-color:red;
+	border-radius:30px;
+	background:linear-gradient(45deg,crimson,yellow);
+}
+button:hover:not(.active){
+	transition-duration:0.4s;
+	width:180px;
+	height:45px;
+	color:white;
+	font-size:28px;
+	box-shadow:0 10px 10px 0 black,0 10px 20px 0 pink;
+}
+p{
+position:absolute;
+top:200px;left:500px;
+	float:center;
+	color:indigo;
+	font-family:Impact, fantasy;
+	font-size: 40px;
+	}
+.classdiv
+{	position:absolute;
+	top:500px;left:460px;
+	display:flex;
+	justify-content:center;
+}
+.classdiv a
+{
+	height:60px;
+	width:60px;
+	background-color:pink;
+	border-radius:30px;
+	line-height:70px;
+	text-align:center;
+	margin-left:50px;
+	box-shadow:1px 4px 2px 2px darkviolet;
+}
+.classdiv a i
+{
+	transition:all 0.3s linear;
+}
+.classdiv a:hover i
+{
+transform:scale(1.2);
+}
+.fa-github
+{
+color:#000;
+}
+.fa-linkedin
+{
+color:blue;
+}
+</style>
+</head>
+<body>
+<div id="main">
+	<nav>
+		<div class="b">Sparks Bank</div>
+			<ul>
+				<li><a href="history.php">Transaction History</a></li>
+				<li><a href="view customer.php">View Customer</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+	</nav>	
+	<h4>Spark Foundation Internship Project</h4>
+	<p> Basic Banking System</p>
+	<center>
+		<div class="tag">
+			<h2>Presented By</h2>
+			<h2>---Saloni Doshi</h2>
+		</div>
+	</center>
+	<a href="view customer.php"><center><button class="button" type="submit">GET START</button></center></a>
+		<div class="classdiv" style="padding:2%">
+			<a href="https://github.com/dsaloni-18/banking" target="blank_page">
+				<i class="fa fa-2x fa-github"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/saloni-doshi-b077bb204/" target="blank_page">
+				<i class="fa fa-2x fa-linkedin"></i>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
