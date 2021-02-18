@@ -113,7 +113,7 @@ button
 					{
 						if($amount>$row["current_balance"] or $row["current_balance"]-$amount<0)  //check whether transaction amount is valid/available
 							{
-								echo "<script>swal( 'Error','Insufficient Balance!','error' ).then(function() { window. location = 'viewcustomer.php'; });;</script>";
+								echo "<script>swal( 'Error','Insufficient Balance!','error' ).then(function() { window. location = 'view customer.php'; });;</script>";
 							}
 						else
 							{
